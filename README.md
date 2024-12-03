@@ -14,7 +14,7 @@ A repository of [Labeled Data Free Method for Model Quality Boosting]
 pip install -r requirements.txt
 ```
 
-### Quick Example
+### Quick Start
 ```
 bash fuse.sh
 ```
