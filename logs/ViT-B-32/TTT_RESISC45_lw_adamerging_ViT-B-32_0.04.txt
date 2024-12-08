@@ -1,0 +1,80 @@
+Namespace(data_location='/data/yuebin/datasets/merging_dataset/', eval_datasets=None, train_dataset=None, exp_name=None, results_db=None, model=None, batch_size=256, lr=0.001, wd=0.1, ls=0.0, warmup_length=500, epochs=10, load=None, save='/data/yuebin/models/ViT-B-32', cache_dir=None, openclip_cachedir='/gscratch/efml/gamaga/.cache/open_clip', device='cuda', method_name='lw_adamerging', model_name='ViT-B-32', logs_path='/home/xuyuebin/Documents/model_Merging/RepresentationSurgery/src/logs/TTT_results/ViT-B-32')
+ dataset: RESISC45 ACC: 0.7919047619047619
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1091, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 5 : dataset: RESISC45 ACC: 0.9158730158730158
+Batch size： 64  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0905, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 10 : dataset: RESISC45 ACC: 0.9455555555555556
+Batch size： 64  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0812, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 15 : dataset: RESISC45 ACC: 0.9526984126984127
+Batch size： 64  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0760, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 20 : dataset: RESISC45 ACC: 0.9561904761904761
+Batch size： 64  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0714, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 25 : dataset: RESISC45 ACC: 0.9566666666666667
+Batch size： 64  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0687, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 30 : dataset: RESISC45 ACC: 0.9568253968253968
+Batch size： 64  Learning Rate： 0.04
+

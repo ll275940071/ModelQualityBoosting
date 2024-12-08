@@ -1,0 +1,302 @@
+Namespace(data_location='/data/yuebin/datasets/merging_dataset/', eval_datasets=None, train_dataset=None, exp_name=None, results_db=None, model=None, batch_size=256, lr=0.001, wd=0.1, ls=0.0, warmup_length=500, epochs=10, load=None, save='/data/yuebin/models/ViT-B-32', cache_dir=None, openclip_cachedir='/gscratch/efml/gamaga/.cache/open_clip', device='cuda', method_name='lw_adamerging', model_name='ViT-B-32', logs_path='/home/xuyuebin/Documents/model_Merging/RepresentationSurgery/src/logs/TTT_results/ViT-B-32')
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1358, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration0 : dataset: DTD ACC: 0.4542553191489362
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1442, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration2 : dataset: DTD ACC: 0.627127659574468
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1396, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration4 : dataset: DTD ACC: 0.6675531914893617
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1320, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration6 : dataset: DTD ACC: 0.6968085106382979
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1151, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration8 : dataset: DTD ACC: 0.7287234042553191
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1143, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration10 : dataset: DTD ACC: 0.7531914893617021
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1055, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration12 : dataset: DTD ACC: 0.7734042553191489
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1023, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration14 : dataset: DTD ACC: 0.7781914893617021
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0936, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration16 : dataset: DTD ACC: 0.7904255319148936
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0877, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration18 : dataset: DTD ACC: 0.7840425531914894
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0844, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration20 : dataset: DTD ACC: 0.7851063829787234
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0812, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration22 : dataset: DTD ACC: 0.7925531914893617
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0791, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration24 : dataset: DTD ACC: 0.7861702127659574
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0767, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration26 : dataset: DTD ACC: 0.7877659574468086
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0768, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration28 : dataset: DTD ACC: 0.7819148936170213
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0736, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch1Iteration0 : dataset: DTD ACC: 0.7808510638297872
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0759, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch1Iteration2 : dataset: DTD ACC: 0.7792553191489362
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0701, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch1Iteration4 : dataset: DTD ACC: 0.7845744680851063
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0721, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch1Iteration6 : dataset: DTD ACC: 0.7861702127659574
+Batch size64Learning Rate0.04
+
+Namespace(data_location='/data/yuebin/datasets/merging_dataset/', eval_datasets=None, train_dataset=None, exp_name=None, results_db=None, model=None, batch_size=256, lr=0.001, wd=0.1, ls=0.0, warmup_length=500, epochs=10, load=None, save='/data/yuebin/models/ViT-B-32', cache_dir=None, openclip_cachedir='/gscratch/efml/gamaga/.cache/open_clip', device='cuda', method_name='lw_adamerging', model_name='ViT-B-32', logs_path='/home/xuyuebin/Documents/model_Merging/RepresentationSurgery/src/logs/TTT_results/ViT-B-32')
+ dataset: DTD ACC: 0.5877659574468085
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1437, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration5 : dataset: DTD ACC: 0.6569148936170213
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1120, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration10 : dataset: DTD ACC: 0.75
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0974, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration15 : dataset: DTD ACC: 0.7840425531914894
+Batch size64Learning Rate0.04
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0855, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration20 : dataset: DTD ACC: 0.7840425531914894
+Batch size64Learning Rate0.04
+

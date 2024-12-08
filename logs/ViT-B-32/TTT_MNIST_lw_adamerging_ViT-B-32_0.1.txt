@@ -1,0 +1,79 @@
+Namespace(data_location='/data/yuebin/datasets/merging_dataset/', eval_datasets=None, train_dataset=None, exp_name=None, results_db=None, model=None, batch_size=256, lr=0.001, wd=0.1, ls=0.0, warmup_length=500, epochs=10, load=None, save='/data/yuebin/models/ViT-B-32', cache_dir=None, openclip_cachedir='/gscratch/efml/gamaga/.cache/open_clip', device='cuda', method_name='lw_adamerging', model_name='ViT-B-32', logs_path='/home/xuyuebin/Documents/model_Merging/RepresentationSurgery/src/logs/TTT_results/ViT-B-32')
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0605, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration0 : dataset: MNIST ACC: 0.876
+Batch size64Learning Rate0.1
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1079, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration2 : dataset: MNIST ACC: 0.982
+Batch size64Learning Rate0.1
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.1071, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration4 : dataset: MNIST ACC: 0.9897
+Batch size64Learning Rate0.1
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0895, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration6 : dataset: MNIST ACC: 0.9901
+Batch size64Learning Rate0.1
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0853, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration8 : dataset: MNIST ACC: 0.993
+Batch size64Learning Rate0.1
+
+merging coefficients Parameter containing:
+tensor([[1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        ...,
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000],
+        [1.0000, 0.3000, 0.3000,  ..., 0.3000, 0.3000, 0.3000]],
+       requires_grad=True)
+loss: tensor(0.0806, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch0Iteration10 : dataset: MNIST ACC: 0.9944
+Batch size64Learning Rate0.1
+

@@ -21,10 +21,6 @@ from eval import eval_single_dataset, eval_single_dataset_head, eval_single_data
 from typing import List
 
 
-def prune(task_vectors: List[TaskVector], args):
-    return 0
-
-
 def fuse(args):
 
     # if args.fuse_backbone == 'TA':
@@ -88,9 +84,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Merge Task Specific Models')
 
     parser.add_argument('--model', type=str, default='ViT-B-32', help='Model name')
-    parser.add_argument('--model_path', type=str, default='/home/xuyuebin/Documents/models/', help='Path to the model directory')                       # default='models/'
+    parser.add_argument('--model_path', type=str, default='models/', help='Path to the model directory')                       # default='models/'
     parser.add_argument('--datasets', type=str, default='SUN397,Cars,RESISC45,EuroSAT,SVHN,GTSRB,MNIST,DTD', help='Comma-separated list of datasets')   
-    parser.add_argument('--data_path', type=str, default='/home/xuyuebin/Documents/datasets/merging_dataset', help='Path to the dataset directory')     # default='datasets/'
+    parser.add_argument('--data_path', type=str, default='datasets/', help='Path to the dataset directory')     # default='datasets/'
     parser.add_argument('--granularity', type=str, default='layer', help='Granularity level (task or layer)')
     parser.add_argument('--fuse_backbone', type=str, default='TA', help='Fusion backbone method (TA, Ties)')
     parser.add_argument('--dare', action='store_true', help='Enable DARE mode')

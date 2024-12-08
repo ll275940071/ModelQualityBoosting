@@ -1,14 +1,14 @@
-data_path=/home/xuyuebin/Documents/datasets/merging_dataset
+data_path=                        # insert your data path here
 datasets="SUN397,Cars,RESISC45,EuroSAT,SVHN,GTSRB,MNIST,DTD"
 model="ViT-B-32"
-model_path=/home/xuyuebin/Documents/models/
-granularity="task"    # task, layer
-fuse_backbone="TA"  # TA(task_arithmetic), Ties, DARE
+model_path=                       # insert your model path here
+granularity="task"                # task, layer
+fuse_backbone="TA"                # TA(task_arithmetic), Ties, DARE
 epoch=200
 batch_size=8
 lr=1e-3
-dare="False"  # True, False
-EM="False"  # True, False
+dare="False"                      # True, False
+EM="False"                        # True, False
 
 cmd="python src/fuse.py \
   --datasets ${datasets} \

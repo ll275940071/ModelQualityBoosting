@@ -1,0 +1,336 @@
+Namespace(data_location='/data/yuebin/datasets/merging_dataset/', eval_datasets=None, train_dataset=None, exp_name=None, results_db=None, model=None, batch_size=256, lr=0.001, wd=0.1, ls=0.0, warmup_length=500, epochs=10, load=None, save='/data/xuyuebin/models/ViT-L-14', cache_dir=None, openclip_cachedir='/gscratch/efml/gamaga/.cache/open_clip', device='cuda', method_name='lw_adamerging', model_name='ViT-L-14', logs_path='/home/xuyuebin/Documents/model_Merging/RepresentationSurgery/src/logs/TTT_results/ViT-L-14')
+ dataset: RESISC45 ACC: 0.919047619047619
+merging coefficients Parameter containing:
+tensor([[ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        ...,
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661]],
+       requires_grad=True)
+loss: tensor(0.2049, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 10 : dataset: RESISC45 ACC: 0.9566666666666667
+Batch size： 32  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        ...,
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515]],
+       requires_grad=True)
+loss: tensor(0.1347, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 20 : dataset: RESISC45 ACC: 0.9725396825396826
+Batch size： 32  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        ...,
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415]],
+       requires_grad=True)
+loss: tensor(0.0963, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 30 : dataset: RESISC45 ACC: 0.9736507936507937
+Batch size： 32  Learning Rate： 0.024
+
+Namespace(data_location='/data/yuebin/datasets/merging_dataset/', eval_datasets=None, train_dataset=None, exp_name=None, results_db=None, model=None, batch_size=256, lr=0.001, wd=0.1, ls=0.0, warmup_length=500, epochs=10, load=None, save='/data/xuyuebin/models/ViT-L-14', cache_dir=None, openclip_cachedir='/gscratch/efml/gamaga/.cache/open_clip', device='cuda', method_name='lw_adamerging', model_name='ViT-L-14', logs_path='/home/xuyuebin/Documents/model_Merging/RepresentationSurgery/src/logs/TTT_results/ViT-L-14')
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.31 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.02 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.83 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.71 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.73 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.69 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.74 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.69 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.75 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.74 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.74 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.76 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.77 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.79 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.76 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.78 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.79 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.77 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.79 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.77 seconds
+merging coefficients Parameter containing:
+tensor([[ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        ...,
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515]],
+       requires_grad=True)
+loss: tensor(0.1687, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 20 : dataset: RESISC45 ACC: 0.966031746031746
+Batch size： 32  Learning Rate： 0.04
+
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.98 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.83 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.69 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.84 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.75 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.82 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.74 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.90 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.72 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.84 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.73 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.71 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.84 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.72 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.86 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.77 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.77 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.86 seconds
+merging coefficients Parameter containing:
+tensor([[-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        ...,
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128]],
+       requires_grad=True)
+loss: tensor(0.0944, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 40 : dataset: RESISC45 ACC: 0.9739682539682539
+Batch size： 32  Learning Rate： 0.024
+
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.96 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.82 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.84 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.89 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.87 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.83 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.83 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.89 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.83 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.89 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.84 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.81 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.87 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.79 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+merging coefficients Parameter containing:
+tensor([[-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        ...,
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036]],
+       requires_grad=True)
+loss: tensor(0.0813, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 60 : dataset: RESISC45 ACC: 0.9747619047619047
+Batch size： 32  Learning Rate： 0.0144
+
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.90 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.81 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.90 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.82 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.90 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.03 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.90 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.87 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+merging coefficients Parameter containing:
+tensor([[-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        ...,
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022]],
+       requires_grad=True)
+loss: tensor(0.0705, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 80 : dataset: RESISC45 ACC: 0.9744444444444444
+Batch size： 32  Learning Rate： 0.0144
+
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.93 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.86 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.96 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.00 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.99 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.06 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.14 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.93 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.96 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.93 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds
+merging coefficients Parameter containing:
+tensor([[-0.0026, -0.0009, -0.0009,  ..., -0.0009, -0.0009, -0.0009],
+        [-0.0026, -0.0009, -0.0009,  ..., -0.0009, -0.0009, -0.0009],
+        [-0.0026, -0.0009, -0.0009,  ..., -0.0009, -0.0009, -0.0009],
+        ...,
+        [-0.0026, -0.0009, -0.0009,  ..., -0.0009, -0.0009, -0.0009],
+        [-0.0026, -0.0009, -0.0009,  ..., -0.0009, -0.0009, -0.0009],
+        [-0.0026, -0.0009, -0.0009,  ..., -0.0009, -0.0009, -0.0009]],
+       requires_grad=True)
+loss: tensor(0.0691, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 100 : dataset: RESISC45 ACC: 0.9747619047619047
+Batch size： 32  Learning Rate： 0.00864
+
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.04 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.86 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.87 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.84 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.83 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.84 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.89 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+merging coefficients Parameter containing:
+tensor([[-0.0004,  0.0002,  0.0002,  ...,  0.0002,  0.0002,  0.0002],
+        [-0.0004,  0.0002,  0.0002,  ...,  0.0002,  0.0002,  0.0002],
+        [-0.0004,  0.0002,  0.0002,  ...,  0.0002,  0.0002,  0.0002],
+        ...,
+        [-0.0004,  0.0002,  0.0002,  ...,  0.0002,  0.0002,  0.0002],
+        [-0.0004,  0.0002,  0.0002,  ...,  0.0002,  0.0002,  0.0002],
+        [-0.0004,  0.0002,  0.0002,  ...,  0.0002,  0.0002,  0.0002]],
+       requires_grad=True)
+loss: tensor(0.0638, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 120 : dataset: RESISC45 ACC: 0.9747619047619047
+Batch size： 32  Learning Rate： 0.005184
+
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.01 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.89 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.90 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.00 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.95 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.87 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.89 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.85 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.93 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.21 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.23 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.07 seconds
+merging coefficients Parameter containing:
+tensor([[-4.9026e-05,  6.1758e-05,  6.1758e-05,  ...,  6.1758e-05,
+          6.1758e-05,  6.1758e-05],
+        [-4.9026e-05,  6.1758e-05,  6.1758e-05,  ...,  6.1758e-05,
+          6.1758e-05,  6.1758e-05],
+        [-4.9026e-05,  6.1758e-05,  6.1758e-05,  ...,  6.1758e-05,
+          6.1758e-05,  6.1758e-05],
+        ...,
+        [-4.9026e-05,  6.1758e-05,  6.1758e-05,  ...,  6.1758e-05,
+          6.1758e-05,  6.1758e-05],
+        [-4.9026e-05,  6.1758e-05,  6.1758e-05,  ...,  6.1758e-05,
+          6.1758e-05,  6.1758e-05],
+        [-4.9026e-05,  6.1758e-05,  6.1758e-05,  ...,  6.1758e-05,
+          6.1758e-05,  6.1758e-05]], requires_grad=True)
+loss: tensor(0.0577, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 140 : dataset: RESISC45 ACC: 0.9753968253968254
+Batch size： 32  Learning Rate： 0.005184
+
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.13 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.07 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.01 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.11 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.04 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.05 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.19 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.04 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.04 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.98 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.01 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.96 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.93 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.91 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.03 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.90 seconds
+merging coefficients Parameter containing:
+tensor([[ 1.2092e-06, -3.5006e-05, -3.5006e-05,  ..., -3.5006e-05,
+         -3.5006e-05, -3.5006e-05],
+        [ 1.2092e-06, -3.5006e-05, -3.5006e-05,  ..., -3.5006e-05,
+         -3.5006e-05, -3.5006e-05],
+        [ 1.2092e-06, -3.5006e-05, -3.5006e-05,  ..., -3.5006e-05,
+         -3.5006e-05, -3.5006e-05],
+        ...,
+        [ 1.2092e-06, -3.5006e-05, -3.5006e-05,  ..., -3.5006e-05,
+         -3.5006e-05, -3.5006e-05],
+        [ 1.2092e-06, -3.5006e-05, -3.5006e-05,  ..., -3.5006e-05,
+         -3.5006e-05, -3.5006e-05],
+        [ 1.2092e-06, -3.5006e-05, -3.5006e-05,  ..., -3.5006e-05,
+         -3.5006e-05, -3.5006e-05]], requires_grad=True)
+loss: tensor(0.0594, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 160 : dataset: RESISC45 ACC: 0.9746031746031746
+Batch size： 32  Learning Rate： 0.0031104
+
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.99 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.00 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.00 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.04 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.00 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.96 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.98 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.89 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.94 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.96 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.93 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.92 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.88 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 3.04 seconds
+Training time for <datasets.resisc45.RESISC45 object at 0x7f6a285cbd00>: 2.97 seconds

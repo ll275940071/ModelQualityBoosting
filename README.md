@@ -14,7 +14,23 @@ A repository of [Labeled Data Free Method for Model Quality Boosting]
 pip install -r requirements.txt
 ```
 
-### Quick Start
+### Data acquisition
+
+Reference: https://github.com/mlfoundations/task_vectors
+
+### Model acquisition
+[Checkpoints](https://drive.google.com/drive/folders/1t6xFYfKYpD3kUirWsIyeqjJb1liK8DDb ) for CLIP models ViT-B/32, ViT-B/16, and ViT-L/14 are now accessible via the link provided below. 
+
+These checkpoints include fine-tuned versions specifically optimized for eight downstream tasks: Stanford Cars, DTD, EuroSAT, GTSRB, MNIST, RESISC45, SUN397, and SVHN.
+
+
+### Execution
 ```
 bash fuse.sh
+bash boost.sh
 ```
+## Acknowledgement
+- Task Arithmetic: https://github.com/mlfoundations/task_vectors
+- TIES-MERGING: https://github.com/prateeky2806/ties-merging/tree/main
+- FusionBench https://github.com/tanganke/fusion_bench
+- DARE: https://github.com/yule-BUAA/MergeLM

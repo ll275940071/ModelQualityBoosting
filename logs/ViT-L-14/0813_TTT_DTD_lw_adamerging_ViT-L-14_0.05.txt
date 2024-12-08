@@ -1,0 +1,40 @@
+Namespace(data_location='/data/yuebin/datasets/merging_dataset/', eval_datasets=None, train_dataset=None, exp_name=None, results_db=None, model=None, batch_size=256, lr=0.001, wd=0.1, ls=0.0, warmup_length=500, epochs=10, load=None, save='/data/xuyuebin/models/ViT-L-14', cache_dir=None, openclip_cachedir='/gscratch/efml/gamaga/.cache/open_clip', device='cuda', method_name='lw_adamerging', model_name='ViT-L-14', logs_path='/home/xuyuebin/Documents/model_Merging/RepresentationSurgery/src/logs/TTT_results/ViT-L-14')
+merging coefficients Parameter containing:
+tensor([[ 0.4666, -0.1071, -0.1071,  ..., -0.1071, -0.1071, -0.1071],
+        [ 0.4666, -0.1071, -0.1071,  ..., -0.1071, -0.1071, -0.1071],
+        [ 0.4666, -0.1071, -0.1071,  ..., -0.1071, -0.1071, -0.1071],
+        ...,
+        [ 0.4666, -0.1071, -0.1071,  ..., -0.1071, -0.1071, -0.1071],
+        [ 0.4666, -0.1071, -0.1071,  ..., -0.1071, -0.1071, -0.1071],
+        [ 0.4666, -0.1071, -0.1071,  ..., -0.1071, -0.1071, -0.1071]],
+       requires_grad=True)
+loss: tensor(0.2301, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 10 : dataset: DTD ACC: 0.8042553191489362
+Batch size： 32  Learning Rate： 0.05
+
+merging coefficients Parameter containing:
+tensor([[0.0801, 0.0002, 0.0002,  ..., 0.0002, 0.0002, 0.0002],
+        [0.0801, 0.0002, 0.0002,  ..., 0.0002, 0.0002, 0.0002],
+        [0.0801, 0.0002, 0.0002,  ..., 0.0002, 0.0002, 0.0002],
+        ...,
+        [0.0801, 0.0002, 0.0002,  ..., 0.0002, 0.0002, 0.0002],
+        [0.0801, 0.0002, 0.0002,  ..., 0.0002, 0.0002, 0.0002],
+        [0.0801, 0.0002, 0.0002,  ..., 0.0002, 0.0002, 0.0002]],
+       requires_grad=True)
+loss: tensor(0.1676, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 20 : dataset: DTD ACC: 0.8414893617021276
+Batch size： 32  Learning Rate： 0.05
+
+merging coefficients Parameter containing:
+tensor([[-0.1083,  0.0392,  0.0392,  ...,  0.0392,  0.0392,  0.0392],
+        [-0.1083,  0.0392,  0.0392,  ...,  0.0392,  0.0392,  0.0392],
+        [-0.1083,  0.0392,  0.0392,  ...,  0.0392,  0.0392,  0.0392],
+        ...,
+        [-0.1083,  0.0392,  0.0392,  ...,  0.0392,  0.0392,  0.0392],
+        [-0.1083,  0.0392,  0.0392,  ...,  0.0392,  0.0392,  0.0392],
+        [-0.1083,  0.0392,  0.0392,  ...,  0.0392,  0.0392,  0.0392]],
+       requires_grad=True)
+loss: tensor(0.1199, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 30 : dataset: DTD ACC: 0.8436170212765958
+Batch size： 32  Learning Rate： 0.03
+

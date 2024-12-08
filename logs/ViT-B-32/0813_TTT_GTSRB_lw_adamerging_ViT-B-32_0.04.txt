@@ -1,0 +1,106 @@
+Namespace(data_location='/data/yuebin/datasets/merging_dataset/', eval_datasets=None, train_dataset=None, exp_name=None, results_db=None, model=None, batch_size=256, lr=0.001, wd=0.1, ls=0.0, warmup_length=500, epochs=10, load=None, save='/data/yuebin/models/ViT-B-32', cache_dir=None, openclip_cachedir='/gscratch/efml/gamaga/.cache/open_clip', device='cuda', method_name='lw_adamerging', model_name='ViT-B-32', logs_path='/home/xuyuebin/Documents/model_Merging/RepresentationSurgery/src/logs/TTT_results/ViT-B-32')
+ dataset: GTSRB ACC: 0.9199524940617577
+merging coefficients Parameter containing:
+tensor([[ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        ...,
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661],
+        [ 0.5697, -0.0661, -0.0661,  ..., -0.0661, -0.0661, -0.0661]],
+       requires_grad=True)
+loss: tensor(0.1200, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 10 : dataset: GTSRB ACC: 0.9825019794140935
+Batch size： 64  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        ...,
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515],
+        [ 0.2329, -0.0515, -0.0515,  ..., -0.0515, -0.0515, -0.0515]],
+       requires_grad=True)
+loss: tensor(0.0746, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 20 : dataset: GTSRB ACC: 0.9860649247822645
+Batch size： 64  Learning Rate： 0.04
+
+merging coefficients Parameter containing:
+tensor([[0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        ...,
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415],
+        [0.0129, 0.0415, 0.0415,  ..., 0.0415, 0.0415, 0.0415]],
+       requires_grad=True)
+loss: tensor(0.0490, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 30 : dataset: GTSRB ACC: 0.9863024544734759
+Batch size： 64  Learning Rate： 0.024
+
+merging coefficients Parameter containing:
+tensor([[-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        ...,
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128],
+        [-0.0460,  0.0128,  0.0128,  ...,  0.0128,  0.0128,  0.0128]],
+       requires_grad=True)
+loss: tensor(0.0291, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 40 : dataset: GTSRB ACC: 0.985827395091053
+Batch size： 64  Learning Rate： 0.024
+
+merging coefficients Parameter containing:
+tensor([[-0.0531, -0.0153, -0.0153,  ..., -0.0153, -0.0153, -0.0153],
+        [-0.0531, -0.0153, -0.0153,  ..., -0.0153, -0.0153, -0.0153],
+        [-0.0531, -0.0153, -0.0153,  ..., -0.0153, -0.0153, -0.0153],
+        ...,
+        [-0.0531, -0.0153, -0.0153,  ..., -0.0153, -0.0153, -0.0153],
+        [-0.0531, -0.0153, -0.0153,  ..., -0.0153, -0.0153, -0.0153],
+        [-0.0531, -0.0153, -0.0153,  ..., -0.0153, -0.0153, -0.0153]],
+       requires_grad=True)
+loss: tensor(0.0208, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 50 : dataset: GTSRB ACC: 0.9872525732383215
+Batch size： 64  Learning Rate： 0.024
+
+merging coefficients Parameter containing:
+tensor([[-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        ...,
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036],
+        [-0.0370, -0.0036, -0.0036,  ..., -0.0036, -0.0036, -0.0036]],
+       requires_grad=True)
+loss: tensor(0.0133, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 60 : dataset: GTSRB ACC: 0.9877276326207443
+Batch size： 64  Learning Rate： 0.0144
+
+merging coefficients Parameter containing:
+tensor([[-0.0239,  0.0036,  0.0036,  ...,  0.0036,  0.0036,  0.0036],
+        [-0.0239,  0.0036,  0.0036,  ...,  0.0036,  0.0036,  0.0036],
+        [-0.0239,  0.0036,  0.0036,  ...,  0.0036,  0.0036,  0.0036],
+        ...,
+        [-0.0239,  0.0036,  0.0036,  ...,  0.0036,  0.0036,  0.0036],
+        [-0.0239,  0.0036,  0.0036,  ...,  0.0036,  0.0036,  0.0036],
+        [-0.0239,  0.0036,  0.0036,  ...,  0.0036,  0.0036,  0.0036]],
+       requires_grad=True)
+loss: tensor(0.0088, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 70 : dataset: GTSRB ACC: 0.9874109263657957
+Batch size： 64  Learning Rate： 0.0144
+
+merging coefficients Parameter containing:
+tensor([[-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        ...,
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022],
+        [-0.0127,  0.0022,  0.0022,  ...,  0.0022,  0.0022,  0.0022]],
+       requires_grad=True)
+loss: tensor(0.0065, device='cuda:0', grad_fn=<MeanBackward0>)
+Epoch: 0 Iteration: 80 : dataset: GTSRB ACC: 0.9874109263657957
+Batch size： 64  Learning Rate： 0.0144
+
